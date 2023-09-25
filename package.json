@@ -1,0 +1,35 @@
+{
+  "name": "fundatech",
+  "version": "1.0.0",
+  "description": "a minimal sized version of fundamental technology's website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Hill Onyechekwa",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.14",
+    "browser-sync": "^2.29.3",
+    "cssnano": "^6.0.1",
+    "dotenv": "^16.3.1",
+    "fancy-log": "^2.0.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.63.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "gulp-babel": "^8.0.0"
+  }
+}

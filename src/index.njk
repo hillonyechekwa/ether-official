@@ -1,0 +1,16 @@
+---
+title: "home"
+layout: base.njk
+---
+
+
+<ul>
+	{%- for category in collections.categories  -%}
+		<li>
+			<a href="{{category.url}}">
+				<h2>{{ category.data.name }}</h2>
+				<p>{{ category.data.description }}
+			</a>
+		</li>
+	{%- endfor -%}
+</ul>
